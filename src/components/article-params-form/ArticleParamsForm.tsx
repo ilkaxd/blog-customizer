@@ -36,7 +36,6 @@ export const ArticleParamsForm = ({
 	const [isOpen, setOpen] = useState(false);
 
 	const toggleOpen = () => {
-		console.log('сменили отображение');
 		setOpen((prevOpen) => !prevOpen);
 	};
 
