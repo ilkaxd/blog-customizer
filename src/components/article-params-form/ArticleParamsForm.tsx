@@ -63,7 +63,7 @@ export const ArticleParamsForm = ({
 
 	useCloseForm({
 		isOpen: isOpen,
-		onClose: () => toggleOpen(),
+		onClose: toggleOpen,
 		rootRef: formRef,
 	});
 
